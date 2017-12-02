@@ -3,3 +3,5 @@
 3. 修改General中App Icons and Launch Images，手动在Assets中添加启动图
 4. Assets中有些警告说该有的图没放，可以删除放置icon的框框
 5. 选择支持的设备Device为iPhone ，而不是Universal
+6. 选择Main.storyboard Editor -> Embed in -> Navigation Controller 加上导航栏
+7. 
