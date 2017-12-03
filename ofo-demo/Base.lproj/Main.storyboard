@@ -21,8 +21,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="uvo-xs-hhq">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="8lK-jV-jrA"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="6U2-Le-MxB"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="XI0-o2-F5z"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="NEP-i3-Y12"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

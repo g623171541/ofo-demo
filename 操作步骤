@@ -5,4 +5,6 @@
 5. 选择支持的设备Device为iPhone ，而不是Universal
 6. 选择Main.storyboard Editor -> Embed in -> Navigation Controller 加上导航栏
 7. 添加资源图片
-8. 在导航栏添加左右item，storyboard拖动添加
+8. 在导航栏添加左右item，storyboard拖动添加,并设置背景图片，发现原始图片的色调被改为导航栏默认色
+9. 在viewdidload方法里设置item的默认主题色无效，需要手动设置item背景图片并设置主题色(original)
+10. 
