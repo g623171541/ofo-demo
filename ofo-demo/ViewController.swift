@@ -19,7 +19,8 @@ class ViewController: UIViewController {
         
         self.navigationItem.leftBarButtonItem?.image = #imageLiteral(resourceName: "leftTopImage").withRenderingMode(.alwaysOriginal)
         self.navigationItem.rightBarButtonItem?.image = #imageLiteral(resourceName: "rightTopImage").withRenderingMode(.alwaysOriginal)
-    
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
