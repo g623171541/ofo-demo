@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         self.navigationItem.rightBarButtonItem?.image = #imageLiteral(resourceName: "rightTopImage").withRenderingMode(.alwaysOriginal)
         
         
+        
     }
 
     override func didReceiveMemoryWarning() {
