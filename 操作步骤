@@ -4,4 +4,5 @@
 4. Assets中有些警告说该有的图没放，可以删除放置icon的框框
 5. 选择支持的设备Device为iPhone ，而不是Universal
 6. 选择Main.storyboard Editor -> Embed in -> Navigation Controller 加上导航栏
-7. 
+7. 添加资源图片
+8. 在导航栏添加左右item，storyboard拖动添加
