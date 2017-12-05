@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         self.navigationItem.titleView = UIImageView(image: #imageLiteral(resourceName: "ofoLogo"))
         //18：设置跳转到的那个页面的返回按钮 只有一个箭头没有title
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

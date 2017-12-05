@@ -19,3 +19,6 @@
 16. 设置webViewController的title，定义活动url及request，用webView去加载这个网页
 17. 【url不能成功加载出来，报错：说http不能安全访问 App Transport Security Settings】所以要在info.plist中添加信任http访问
 18. 跳转到webView后的返回按钮是【<Back】在viewController里面可以设置将Back删除
+
+    //侧边栏
+19. 
