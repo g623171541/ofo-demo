@@ -5,7 +5,17 @@
 5. 选择支持的设备Device为iPhone ，而不是Universal
 6. 选择Main.storyboard Editor -> Embed in -> Navigation Controller 加上导航栏
 7. 添加资源图片
+    //导航条
 8. 在导航栏添加左右item，storyboard拖动添加,并设置背景图片，发现原始图片的色调被改为导航栏默认色
 9. 在viewdidload方法里设置item的默认主题色无效，需要手动设置item背景图片并设置主题色(original)
-10.
-11. 
+10.设置导航条上面的title，有一个titleView可以设置为图片
+    //map
+11. 拖动一个MKMapView在viewController上，并添加约束使其全屏
+12. 并开启在Capabilities中的Map功能，勾选Pedestrian（步行）和Bick选项
+    //点击导航栏右侧活动按钮
+13. storyboard添加一个普通的viewController，关联上右侧item转场 并添加webView充满容器，勾选上WebView的 Scales Page To Fit做适应
+14. 新建一个WebViewController 并关联上storyboard上的viewController
+15. 将webView（可使用webView或者WKWebView）拖动到controller里创建实例
+16. 设置webViewController的title，定义活动url及request，用webView去加载这个网页
+17. 【url不能成功加载出来，报错：说http不能安全访问 App Transport Security Settings】所以要在info.plist中添加信任http访问
+18. 跳转到webView后的返回按钮是【<Back】在viewController里面可以设置将Back删除

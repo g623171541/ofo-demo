@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8100A361FD613DC00155A48 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8100A351FD613DC00155A48 /* MapKit.framework */; };
+		E8100A381FD61AA500155A48 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8100A371FD61AA500155A48 /* WebViewController.swift */; };
 		E8B92B381FD0E512003F8F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B92B371FD0E512003F8F36 /* AppDelegate.swift */; };
 		E8B92B3A1FD0E512003F8F36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B92B391FD0E512003F8F36 /* ViewController.swift */; };
 		E8B92B3D1FD0E512003F8F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B92B3B1FD0E512003F8F36 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8100A351FD613DC00155A48 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E8100A371FD61AA500155A48 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		E8B92B341FD0E512003F8F36 /* ofo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ofo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B92B371FD0E512003F8F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B92B391FD0E512003F8F36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,18 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8100A361FD613DC00155A48 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8100A321FD613A600155A48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8100A351FD613DC00155A48 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E8B92B2B1FD0E511003F8F36 = {
 			isa = PBXGroup;
 			children = (
 				E8B92B491FD0E707003F8F36 /* 操作步骤 */,
 				E8B92B361FD0E512003F8F36 /* ofo-demo */,
 				E8B92B351FD0E512003F8F36 /* Products */,
+				E8100A321FD613A600155A48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +77,7 @@
 				E8B92B3E1FD0E512003F8F36 /* Assets.xcassets */,
 				E8B92B401FD0E512003F8F36 /* LaunchScreen.storyboard */,
 				E8B92B431FD0E512003F8F36 /* Info.plist */,
+				E8100A371FD61AA500155A48 /* WebViewController.swift */,
 			);
 			path = "ofo-demo";
 			sourceTree = "<group>";
@@ -100,6 +115,11 @@
 					E8B92B331FD0E511003F8F36 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -141,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8B92B3A1FD0E512003F8F36 /* ViewController.swift in Sources */,
+				E8100A381FD61AA500155A48 /* WebViewController.swift in Sources */,
 				E8B92B381FD0E512003F8F36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

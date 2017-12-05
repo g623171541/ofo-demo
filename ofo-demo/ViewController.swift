@@ -19,7 +19,10 @@ class ViewController: UIViewController {
         self.navigationItem.leftBarButtonItem?.image = #imageLiteral(resourceName: "leftTopImage").withRenderingMode(.alwaysOriginal)
         self.navigationItem.rightBarButtonItem?.image = #imageLiteral(resourceName: "rightTopImage").withRenderingMode(.alwaysOriginal)
         
-        
+        //10：设置当前viewController的title为一个图片
+        self.navigationItem.titleView = UIImageView(image: #imageLiteral(resourceName: "ofoLogo"))
+        //18：设置跳转到的那个页面的返回按钮 只有一个箭头没有title
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
 
     override func didReceiveMemoryWarning() {
