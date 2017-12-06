@@ -21,4 +21,6 @@
 18. 跳转到webView后的返回按钮是【<Back】在viewController里面可以设置将Back删除
 
     //侧边栏
-19. 
+19. 拖动一个tableViewController，并选中storyboard中的 TableView，设置content为Static Cells
+20. 设置section为2，一部分为用户信息（头像），一部分为功能选择，去掉section的标题（Header）
+21. 设置第一个的头像部分，注意使用StackView
