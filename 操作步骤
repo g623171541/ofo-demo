@@ -24,3 +24,7 @@
 19. 拖动一个tableViewController，并选中storyboard中的 TableView，设置content为Static Cells
 20. 设置section为2，一部分为用户信息（头像），一部分为功能选择，去掉section的标题（Header）
 21. 设置第一个的头像部分，注意使用StackView
+22. 设置第二部分section的图片和菜单
+23. 添加下面的广告banner imageView，由于菜单从左侧划出后右边有一部分空白，还会显示地图，直接添加ImageView在TableViewController中不能控制右边的空白部分，只能把图片右边遮挡掉，所以添加一个ContainerView，里面放ImageView，随之可以设置ImageView的大小
+24， 给ContainerView中的ImageView添加约束，左上距离为0，宽度285，并设置Content Mode为Aspect Fit
+

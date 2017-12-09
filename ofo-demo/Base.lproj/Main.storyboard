@@ -55,10 +55,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RedPacketBike" id="O5V-X1-65D">
+                        <containerView key="tableFooterView" opaque="NO" contentMode="scaleToFill" id="0tW-Xg-XDE">
                             <rect key="frame" x="0.0" y="414" width="375" height="150"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        </imageView>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <connections>
+                                <segue destination="RO7-R8-YJc" kind="embed" id="8fC-po-Yk9"/>
+                            </connections>
+                        </containerView>
                         <sections>
                             <tableViewSection id="8hN-0D-R0U">
                                 <cells>
@@ -385,6 +388,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xT-fy-KJO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-300" y="133"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Fq4-AT-37g">
+            <objects>
+                <viewController id="RO7-R8-YJc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KBK-qM-joN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RedPacketBike" translatesAutoresizingMaskIntoConstraints="NO" id="1z5-Fw-GPv">
+                                <rect key="frame" x="0.0" y="0.0" width="285" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="285" id="BAb-P7-2uR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1z5-Fw-GPv" firstAttribute="top" secondItem="KBK-qM-joN" secondAttribute="top" id="dWt-w4-Rhs"/>
+                            <constraint firstItem="1z5-Fw-GPv" firstAttribute="leading" secondItem="KBK-qM-joN" secondAttribute="leading" id="qod-rU-OwJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sMa-YW-ePo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1381.5999999999999" y="984.10794602698661"/>
         </scene>
     </scenes>
     <resources>
