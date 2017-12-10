@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="476" y="132.68365817091455"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Menu Controller-->
         <scene sceneID="2oD-o3-Fud">
             <objects>
-                <tableViewController id="lKB-19-LWC" sceneMemberID="viewController">
+                <tableViewController id="lKB-19-LWC" customClass="MenuController" customModule="ofo_demo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="M8B-hF-OnA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -336,6 +336,13 @@
                             <outlet property="delegate" destination="lKB-19-LWC" id="HRC-J1-t8B"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="avatar" destination="FUx-gf-QjA" id="sla-Zt-8es"/>
+                        <outlet property="balanceLabel" destination="Kvn-Q5-Peg" id="wms-lQ-L5O"/>
+                        <outlet property="certImageView" destination="2cR-bN-Tnb" id="44c-VZ-mqc"/>
+                        <outlet property="certLabel" destination="bhW-lm-jH5" id="VUD-RB-a9Z"/>
+                        <outlet property="creditLabel" destination="EwJ-Jy-IoM" id="ch7-fy-8Qd"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Tj-L0-K9q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -409,6 +416,7 @@
                             <constraint firstItem="1z5-Fw-GPv" firstAttribute="top" secondItem="KBK-qM-joN" secondAttribute="top" id="dWt-w4-Rhs"/>
                             <constraint firstItem="1z5-Fw-GPv" firstAttribute="leading" secondItem="KBK-qM-joN" secondAttribute="leading" id="qod-rU-OwJ"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="aac-8V-vpI"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sMa-YW-ePo" userLabel="First Responder" sceneMemberID="firstResponder"/>

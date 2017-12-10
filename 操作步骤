@@ -27,4 +27,8 @@
 22. 设置第二部分section的图片和菜单
 23. 添加下面的广告banner imageView，由于菜单从左侧划出后右边有一部分空白，还会显示地图，直接添加ImageView在TableViewController中不能控制右边的空白部分，只能把图片右边遮挡掉，所以添加一个ContainerView，里面放ImageView，随之可以设置ImageView的大小
 24， 给ContainerView中的ImageView添加约束，左上距离为0，宽度285，并设置Content Mode为Aspect Fit
+25. 创建MenuController与菜单的controller关联，并拖拽相关联的label及ImageView
+    -------//到此菜单栏创建完毕
+
+26. 
 
