@@ -30,5 +30,17 @@
 25. 创建MenuController与菜单的controller关联，并拖拽相关联的label及ImageView
     -------//到此菜单栏创建完毕
 
-26.
+    //安装CocoaPods(iOS中一个管理第三方的工具)
+26. 到项目目录下创建Podfile [命令行：pod init]
+    打开Podfile并添加你要的库 [pod 'SWRevealViewController' , '~> 2.3.0'] 逗号后面的省略获取最新版本
+    [pod update] 此命令更新电脑里面的github库
+    [pod install] 安装Podfile里面所需要的库
+    关闭项目，以后打开项目只用打开 .xcworkspace文件
 
+    //创建OC和swift的桥接文件
+27. 创建一个Objective-C.m file ,随便一个名字，下一步选择创建桥接文件，然后删除x.m文件即可
+    在桥接文件里导入引用的第三方（OC）头文件,例：#import "SWRevealViewController.h"
+    如果编译报错，有可能是因为文件找不到，少了一层目录，#import "SWRevealViewController/SWRevealViewController.h" 这样写即可
+    在ViewController.swift中用的话必须 import SWRevealViewController
+
+28.

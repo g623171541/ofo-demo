@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB33FB55787F3F41044516CE4C05E23 /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A95697A69A4DB86E4C7BF35BC485CEC4 /* SWRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D188832DE1B22BBCB9BE8C66A4A022 /* Pods-ofo-demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F9E876E3580D258017FE991D05C4BC0 /* Pods-ofo-demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996708535E92159DBEF775AE1F7149FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		9B56A65ADDC9479C25B37CEC186FA7CE /* Pods-ofo-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78866190A2C41B996D907A7BF2C47E9F /* Pods-ofo-demo-dummy.m */; };
+		A82BA01D77099FF287C25CD671F465F4 /* SWRevealViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CDBEAF066B98CA67C410DAEC88BD35 /* SWRevealViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F3708627BFE6259FFD272977F8C4C3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744ABE771270A802B17AA91E0BFC1A15 /* SWRevealViewController.m */; };
+		D62E24FEBF89CA2835ADBE3EA3B3D180 /* SWRevealViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C926A7FF96BB78067CD69FEACED8667 /* SWRevealViewController-dummy.m */; };
+		DA8917E758BD3BF2EEC2D20066FE6FFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		EA10A67EF6C2DC6CFBC1AD4808F331D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D37A7A1E41F6AABC91DB947EA0F19458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1A3FC3B2AC12F733AB64D156309394;
+			remoteInfo = SWRevealViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D7DADA729E5FBE543FFCA00A9DFEC90 /* Pods_ofo_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ofo_demo.framework; path = "Pods-ofo-demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E98030A567A6BDBF71F31CDBE67D2AE /* Pods-ofo-demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ofo-demo.modulemap"; sourceTree = "<group>"; };
+		3EAE3F67A191BF69699DEA983D05E778 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CDBEAF066B98CA67C410DAEC88BD35 /* SWRevealViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-umbrella.h"; sourceTree = "<group>"; };
+		4C926A7FF96BB78067CD69FEACED8667 /* SWRevealViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWRevealViewController-dummy.m"; sourceTree = "<group>"; };
+		4F9E876E3580D258017FE991D05C4BC0 /* Pods-ofo-demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ofo-demo-umbrella.h"; sourceTree = "<group>"; };
+		5F475A8933BAFF4E96981F8EABA46AFC /* Pods-ofo-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ofo-demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		684213E519441074FE8338FBF49E75E9 /* SWRevealViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWRevealViewController.xcconfig; sourceTree = "<group>"; };
+		744ABE771270A802B17AA91E0BFC1A15 /* SWRevealViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		74A78FACE954196B4D584A517E98A52F /* SWRevealViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWRevealViewController.framework; path = SWRevealViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78866190A2C41B996D907A7BF2C47E9F /* Pods-ofo-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ofo-demo-dummy.m"; sourceTree = "<group>"; };
+		8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		880284E1B19520B01AC75860E0395893 /* Pods-ofo-demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ofo-demo-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A27F618049BA9267BD7F4DE144D005E2 /* SWRevealViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWRevealViewController.modulemap; sourceTree = "<group>"; };
+		A654CB96D92C135953405AFE0BC7C40C /* Pods-ofo-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ofo-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		A95697A69A4DB86E4C7BF35BC485CEC4 /* SWRevealViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BDEE451C9029B9170C9488A472B2F5A5 /* SWRevealViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-prefix.pch"; sourceTree = "<group>"; };
+		D402D3358D28F3DD40BA5353ECD9D6B2 /* Pods-ofo-demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ofo-demo-frameworks.sh"; sourceTree = "<group>"; };
+		F830A4665A5732B86427A028A86B1D25 /* Pods-ofo-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ofo-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB206F4C4D77BD6F23293B1C4CF290B4 /* Pods-ofo-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ofo-demo.release.xcconfig"; sourceTree = "<group>"; };
+		FE4B866FD324AD843196880482126445 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		895BFE853AE9B232C8A30D29EB789C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA10A67EF6C2DC6CFBC1AD4808F331D3 /* CoreGraphics.framework in Frameworks */,
+				996708535E92159DBEF775AE1F7149FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF60BF88156868F7345033DDEC754860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8917E758BD3BF2EEC2D20066FE6FFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A13413360E4B4F80D82A8FD3341A361 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A95697A69A4DB86E4C7BF35BC485CEC4 /* SWRevealViewController.h */,
+				744ABE771270A802B17AA91E0BFC1A15 /* SWRevealViewController.m */,
+				46F8018B70DD7A4DF0CC3B567B149909 /* Support Files */,
+			);
+			name = SWRevealViewController;
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93AA53D048424A67CC426E3C9422A44 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46F8018B70DD7A4DF0CC3B567B149909 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EAE3F67A191BF69699DEA983D05E778 /* Info.plist */,
+				A27F618049BA9267BD7F4DE144D005E2 /* SWRevealViewController.modulemap */,
+				684213E519441074FE8338FBF49E75E9 /* SWRevealViewController.xcconfig */,
+				4C926A7FF96BB78067CD69FEACED8667 /* SWRevealViewController-dummy.m */,
+				BDEE451C9029B9170C9488A472B2F5A5 /* SWRevealViewController-prefix.pch */,
+				49CDBEAF066B98CA67C410DAEC88BD35 /* SWRevealViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWRevealViewController";
+			sourceTree = "<group>";
+		};
+		5DF0D4785E3B1053C3502943FAC26279 /* Pods-ofo-demo */ = {
+			isa = PBXGroup;
+			children = (
+				FE4B866FD324AD843196880482126445 /* Info.plist */,
+				1E98030A567A6BDBF71F31CDBE67D2AE /* Pods-ofo-demo.modulemap */,
+				F830A4665A5732B86427A028A86B1D25 /* Pods-ofo-demo-acknowledgements.markdown */,
+				5F475A8933BAFF4E96981F8EABA46AFC /* Pods-ofo-demo-acknowledgements.plist */,
+				78866190A2C41B996D907A7BF2C47E9F /* Pods-ofo-demo-dummy.m */,
+				D402D3358D28F3DD40BA5353ECD9D6B2 /* Pods-ofo-demo-frameworks.sh */,
+				880284E1B19520B01AC75860E0395893 /* Pods-ofo-demo-resources.sh */,
+				4F9E876E3580D258017FE991D05C4BC0 /* Pods-ofo-demo-umbrella.h */,
+				A654CB96D92C135953405AFE0BC7C40C /* Pods-ofo-demo.debug.xcconfig */,
+				FB206F4C4D77BD6F23293B1C4CF290B4 /* Pods-ofo-demo.release.xcconfig */,
+			);
+			name = "Pods-ofo-demo";
+			path = "Target Support Files/Pods-ofo-demo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				EF919DCAD7230EFA1F7FA3DC5EA3DDED /* Pods */,
+				B5E274C218B46AA04A103CD011E2492A /* Products */,
+				8482AB97FE8A4CAB04F8C0C4B4DAC5DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8482AB97FE8A4CAB04F8C0C4B4DAC5DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF0D4785E3B1053C3502943FAC26279 /* Pods-ofo-demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B5E274C218B46AA04A103CD011E2492A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D7DADA729E5FBE543FFCA00A9DFEC90 /* Pods_ofo_demo.framework */,
+				74A78FACE954196B4D584A517E98A52F /* SWRevealViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C93AA53D048424A67CC426E3C9422A44 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */,
+				AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EF919DCAD7230EFA1F7FA3DC5EA3DDED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A13413360E4B4F80D82A8FD3341A361 /* SWRevealViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A9E4B211C96524EBEE5360F7E7B082C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D188832DE1B22BBCB9BE8C66A4A022 /* Pods-ofo-demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8391CB50420877BE6044C65C329BE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82BA01D77099FF287C25CD671F465F4 /* SWRevealViewController-umbrella.h in Headers */,
+				0AB33FB55787F3F41044516CE4C05E23 /* SWRevealViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6697B60478D59AEB65E8EB0EA36CA83A /* Pods-ofo-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B47FC32A8FF1A76A58EC9FD4BB53BBBE /* Build configuration list for PBXNativeTarget "Pods-ofo-demo" */;
+			buildPhases = (
+				10261DC462C643360A04AABD6C4BE313 /* Sources */,
+				BF60BF88156868F7345033DDEC754860 /* Frameworks */,
+				A9E4B211C96524EBEE5360F7E7B082C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF351BCA3BF9FD0DC1B06AC3BA2F74D /* PBXTargetDependency */,
+			);
+			name = "Pods-ofo-demo";
+			productName = "Pods-ofo-demo";
+			productReference = 1D7DADA729E5FBE543FFCA00A9DFEC90 /* Pods_ofo_demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE1A3FC3B2AC12F733AB64D156309394 /* SWRevealViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BCD421D72AE5AC3B85937E8FDB94554 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */;
+			buildPhases = (
+				35E62986EAB8C56C50252D681DBB2E00 /* Sources */,
+				895BFE853AE9B232C8A30D29EB789C07 /* Frameworks */,
+				DF8391CB50420877BE6044C65C329BE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWRevealViewController;
+			productName = SWRevealViewController;
+			productReference = 74A78FACE954196B4D584A517E98A52F /* SWRevealViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B5E274C218B46AA04A103CD011E2492A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6697B60478D59AEB65E8EB0EA36CA83A /* Pods-ofo-demo */,
+				EE1A3FC3B2AC12F733AB64D156309394 /* SWRevealViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10261DC462C643360A04AABD6C4BE313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B56A65ADDC9479C25B37CEC186FA7CE /* Pods-ofo-demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E62986EAB8C56C50252D681DBB2E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62E24FEBF89CA2835ADBE3EA3B3D180 /* SWRevealViewController-dummy.m in Sources */,
+				C0F3708627BFE6259FFD272977F8C4C3 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BF351BCA3BF9FD0DC1B06AC3BA2F74D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWRevealViewController;
+			target = EE1A3FC3B2AC12F733AB64D156309394 /* SWRevealViewController */;
+			targetProxy = D37A7A1E41F6AABC91DB947EA0F19458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3169A325F849558C75A6C378CBB34CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A654CB96D92C135953405AFE0BC7C40C /* Pods-ofo-demo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ofo-demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ofo-demo/Pods-ofo-demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ofo_demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7327FBF7B08BF35F9D3CF4D1FA6FCAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684213E519441074FE8338FBF49E75E9 /* SWRevealViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
+				PRODUCT_NAME = SWRevealViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D3FE2308B102BE72928D1D688361D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB206F4C4D77BD6F23293B1C4CF290B4 /* Pods-ofo-demo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ofo-demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ofo-demo/Pods-ofo-demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ofo_demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		995C3A53DEAA96B47E756185345E180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CE25972064AD5272C6B098DE1019EE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684213E519441074FE8338FBF49E75E9 /* SWRevealViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
+				PRODUCT_NAME = SWRevealViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BCD421D72AE5AC3B85937E8FDB94554 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7327FBF7B08BF35F9D3CF4D1FA6FCAB0 /* Debug */,
+				CE25972064AD5272C6B098DE1019EE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C3A53DEAA96B47E756185345E180D /* Debug */,
+				1D23278938ADF334174C5BF2A4B6B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B47FC32A8FF1A76A58EC9FD4BB53BBBE /* Build configuration list for PBXNativeTarget "Pods-ofo-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3169A325F849558C75A6C378CBB34CAE /* Debug */,
+				8D3FE2308B102BE72928D1D688361D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
