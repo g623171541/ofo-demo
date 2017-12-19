@@ -43,4 +43,8 @@
     如果编译报错，有可能是因为文件找不到，少了一层目录，#import "SWRevealViewController/SWRevealViewController.h" 这样写即可
     在ViewController.swift中用的话必须 import SWRevealViewController
 
-28.
+    //侧边栏的交互实现***
+28. 在storyBoard中添加一个空的viewController，关联上SWRevealViewController，并把SWRevealViewController control拖动到ViewController，选择reveal view controller set controller，说明配置了一个侧边栏的容器。同样把SWRevealViewController control拖动到MenuController，选择reveal view controller set controller,并把启动箭头拖动到SWRevealViewController，这样SWR才可以同时管理两个VC
+29. 把SWRVC与VC控制线的StoryBoard Segue的Identifier 设置为sw_front(固定格式),另外一跟连线设置为sw_rear
+    【其实SWRVC是一个容器，包含了VC（前面视图）和MenuC（后面的视图）】
+30. 使用let revealVC = revealViewController()获取SWRVC容器，设置leftBarButtonItem目标为SWRVC
