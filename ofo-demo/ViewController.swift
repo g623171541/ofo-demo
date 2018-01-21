@@ -25,13 +25,16 @@ class ViewController: UIViewController {
         //18：设置跳转到的那个页面的返回按钮 只有一个箭头没有title
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         
-        //在子视图中获取父视图，并添加切换的方法
+        //获取子视图中获取父视图（容器视图），并添加切换的方法
         if let revealVC = revealViewController() {
+            //设置左边栏滑动的宽度
+            revealVC.rearViewRevealWidth = 280
+            
             //设置目标
             navigationItem.leftBarButtonItem?.target = revealVC
             //打开的动作，右边调用OC中的方法，SWRVC的侧边栏切换方法
             navigationItem.leftBarButtonItem?.action = #selector(SWRevealViewController.revealToggle(_:))
-            //给当前的View添加手势
+            //给当前的View添加平移手势
             view.addGestureRecognizer(revealVC.panGestureRecognizer())
             
         }

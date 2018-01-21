@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="eAj-Be-xPU">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -327,6 +327,9 @@
                                                 <constraint firstItem="4n9-xb-akb" firstAttribute="centerY" secondItem="Tn2-y1-KST" secondAttribute="centerY" id="NWG-Wh-KAB"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="trt-N0-eFt" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="UhZ-00-p9k"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -346,7 +349,34 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Tj-L0-K9q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="476" y="876"/>
+            <point key="canvasLocation" x="-314" y="875"/>
+        </scene>
+        <!--About Us Controller-->
+        <scene sceneID="Y6J-kn-rjx">
+            <objects>
+                <viewController id="B6z-Sh-sou" customClass="AboutUsController" customModule="ofo_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Odu-vv-tOC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="about us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Phn-4a-Llv">
+                                <rect key="frame" x="133" y="323" width="138" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gRl-IH-jlz"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hBC-ua-Izk">
+                        <barButtonItem key="leftBarButtonItem" title="&lt;" id="OTg-ma-996"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A1l-Dc-yu6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1225" y="874"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="NW6-n0-mKg">
@@ -357,7 +387,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9iS-p5-vHv">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
@@ -394,7 +424,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xT-fy-KJO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-438" y="-42"/>
+            <point key="canvasLocation" x="-314" y="133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Fq4-AT-37g">
@@ -421,7 +451,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sMa-YW-ePo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1311" y="875"/>
+            <point key="canvasLocation" x="-314" y="1391"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="yp0-UC-mRg">
@@ -434,13 +464,31 @@
                         <viewLayoutGuide key="safeArea" id="Kg9-P0-Rrf"/>
                     </view>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="kG4-GV-JPf"/>
                         <segue destination="lKB-19-LWC" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="OJV-86-B6s"/>
+                        <segue destination="cet-gH-R0j" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="GFf-2Y-BSX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mnv-fN-A7n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1006" y="616"/>
+            <point key="canvasLocation" x="-1390" y="594"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="D1z-6G-Bcb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="trt-N0-eFt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vC1-sC-Bi9">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="B6z-Sh-sou" kind="relationship" relationship="rootViewController" id="1Dq-G2-fMF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MyY-sN-uBk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="475.19999999999999" y="874.36281859070471"/>
         </scene>
     </scenes>
     <resources>
@@ -454,7 +502,4 @@
         <image name="RedPacketBike" width="340" height="135"/>
         <image name="UserInfo_defaultIcon" width="120" height="120"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="kG4-GV-JPf"/>
-    </inferredMetricsTieBreakers>
 </document>

@@ -44,7 +44,16 @@
     在ViewController.swift中用的话必须 import SWRevealViewController
 
     //侧边栏的交互实现***
-28. 在storyBoard中添加一个空的viewController，关联上SWRevealViewController，并把SWRevealViewController control拖动到ViewController，选择reveal view controller set controller，说明配置了一个侧边栏的容器。同样把SWRevealViewController control拖动到MenuController，选择reveal view controller set controller,并把启动箭头拖动到SWRevealViewController，这样SWR才可以同时管理两个VC
+28. 在storyBoard中添加一个空的viewController，关联上SWRevealViewController，并把SWRevealViewController control拖动到NavigationController，选择reveal view controller set controller，说明配置了一个侧边栏的容器。同样把SWRevealViewController control拖动到MenuController，选择reveal view controller set controller,并把启动箭头拖动到SWRevealViewController，这样SWR才可以同时管理两个Controller
 29. 把SWRVC与VC控制线的StoryBoard Segue的Identifier 设置为sw_front(固定格式),另外一跟连线设置为sw_rear
     【其实SWRVC是一个容器，包含了VC（前面视图）和MenuC（后面的视图）】
 30. 使用let revealVC = revealViewController()获取SWRVC容器，设置leftBarButtonItem目标为SWRVC
+31. 设置左边栏滑动的宽度 revealVC.rearViewRevealWidth = 280
+32. 启动发现侧边栏只有一个活动图片，没有菜单，这是由于创建的MenuControler 是一个tableViewController，默认sessions 和rows 都返回是0 ，导致菜单隐藏
+
+    //实现点击菜单栏交互
+33. 在storyboard中创建一个ViewController 拖动“关于我们”的cell到这个ViewController上，选push，运行后就可以点击跳转了，但是跳转过去后没有导航栏了,需要手动嵌入导航栏：Editor -> Embed in -> Navigation Controller
+34. 创建AboutUsController 与storyboard中的关联上，并在导航栏中添加返回按钮，同样要设置返回按钮的点击滑动侧边栏事件
+
+
+

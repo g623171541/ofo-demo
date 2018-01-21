@@ -11,6 +11,7 @@
 		E8100A361FD613DC00155A48 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8100A351FD613DC00155A48 /* MapKit.framework */; };
 		E8100A381FD61AA500155A48 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8100A371FD61AA500155A48 /* WebViewController.swift */; };
 		E83BD6EE1FDCD5C000E9BC9D /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BD6ED1FDCD5C000E9BC9D /* MenuController.swift */; };
+		E8980D2C20144AA60097F178 /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8980D2B20144AA60097F178 /* AboutUsController.swift */; };
 		E8B92B381FD0E512003F8F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B92B371FD0E512003F8F36 /* AppDelegate.swift */; };
 		E8B92B3A1FD0E512003F8F36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B92B391FD0E512003F8F36 /* ViewController.swift */; };
 		E8B92B3D1FD0E512003F8F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B92B3B1FD0E512003F8F36 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		E8100A371FD61AA500155A48 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		E83BD6ED1FDCD5C000E9BC9D /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		E88FC5EF1FE1745B00122964 /* ofo-demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ofo-demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		E8980D2B20144AA60097F178 /* AboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
 		E8B92B341FD0E512003F8F36 /* ofo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ofo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B92B371FD0E512003F8F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B92B391FD0E512003F8F36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				E8B92B401FD0E512003F8F36 /* LaunchScreen.storyboard */,
 				E8B92B431FD0E512003F8F36 /* Info.plist */,
 				E88FC5EF1FE1745B00122964 /* ofo-demo-Bridging-Header.h */,
+				E8980D2B20144AA60097F178 /* AboutUsController.swift */,
 			);
 			path = "ofo-demo";
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			files = (
 				E83BD6EE1FDCD5C000E9BC9D /* MenuController.swift in Sources */,
 				E8B92B3A1FD0E512003F8F36 /* ViewController.swift in Sources */,
+				E8980D2C20144AA60097F178 /* AboutUsController.swift in Sources */,
 				E8100A381FD61AA500155A48 /* WebViewController.swift in Sources */,
 				E8B92B381FD0E512003F8F36 /* AppDelegate.swift in Sources */,
 			);
