@@ -62,4 +62,6 @@
 38. PanelView并没有显示，要想在前面显示，要么调整storyboard的视图层次，要么写view.bringSubview(toFront: panelView)
 39. PanelView后面的渐变色没有显示，将其背景颜色换为clearColor即可
 
+    //自动部署高德地图
+40. 编写pod文件，安装高德SDK，用命令行敲入 pod install进行安装
 
