@@ -55,5 +55,11 @@
 33. 在storyboard中创建一个ViewController 拖动“关于我们”的cell到这个ViewController上，选push，运行后就可以点击跳转了，但是跳转过去后没有导航栏了,需要手动嵌入导航栏：Editor -> Embed in -> Navigation Controller
 34. 创建AboutUsController 与storyboard中的关联上，并在导航栏中添加返回按钮，同样要设置返回按钮的点击滑动侧边栏事件
 
+    //定位和用车面板view
+35. 拖动空view放在MapView上面，命名Panel View，高度为手机高度的1/4（先设置高度为父视图的equal Height，再把Multipler设置为0.25）
+36. 在Panel View上放置定位、吐槽、立即用车button和label，用StackView进行组装，整个StackView后面放置一个有渐变色背景的ImageView，让StackView充满整个Panel View
+37. 拖动连接定位按钮的点击事件
+38. PanelView并没有显示，要想在前面显示，要么调整storyboard的视图层次，要么写view.bringSubview(toFront: panelView)
+39. PanelView后面的渐变色没有显示，将其背景颜色换为clearColor即可
 
 
