@@ -64,4 +64,10 @@
 
     //自动部署高德地图
 40. 编写pod文件，安装高德SDK，用命令行敲入 pod install进行安装
+41. 在桥接头文件中引用高德地图所用到的库即可
+
+    //用高德地图代替苹果map
+42. 在Capabilities中关闭 Maps
+43. 删除Main.storyboard中的 MKMapView
+44. 用代码方式实现高德地图的view，在控制器中声明一个全局属性mapView，在工程初始化的时候初始化mapView,并添加到视图上
 

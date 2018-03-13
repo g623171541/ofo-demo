@@ -10,7 +10,10 @@ import UIKit
 import SWRevealViewController
 
 class ViewController: UIViewController {
-
+    //44.增加一个控制器中的全局属性。加一个感叹号说明mapView是一定有值的
+    var mapView: MAMapView!
+    
+    
     @IBOutlet weak var panelView: UIView!
     
     //点击定位按钮
@@ -20,6 +23,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //44. 初始化mapView
+        mapView = MAMapView(frame: view.bounds)
+        view.addSubview(mapView )
         
         //38
         view.bringSubview(toFront: panelView)

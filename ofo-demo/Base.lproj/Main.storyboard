@@ -20,9 +20,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="eAj-Be-xPU">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                            </mapView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kTN-9g-LTu" userLabel="Panel View">
                                 <rect key="frame" x="0.0" y="500.5" width="375" height="166.5"/>
                                 <subviews>
@@ -100,15 +97,9 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kTN-9g-LTu" secondAttribute="trailing" id="11h-Bw-86w"/>
-                            <constraint firstItem="eAj-Be-xPU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8D4-EI-QKt"/>
-                            <constraint firstItem="eAj-Be-xPU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="AhL-1b-ja1"/>
                             <constraint firstItem="kTN-9g-LTu" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="Ciy-mO-hLe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eAj-Be-xPU" secondAttribute="bottom" id="Igd-Tq-bE8"/>
                             <constraint firstItem="kTN-9g-LTu" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="U4j-Bl-EZp"/>
-                            <constraint firstItem="eAj-Be-xPU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="V5l-bS-ZaU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eAj-Be-xPU" secondAttribute="trailing" id="kXD-cA-Fwf"/>
                             <constraint firstItem="kTN-9g-LTu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oiG-Fe-MBS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eAj-Be-xPU" secondAttribute="bottom" id="xnn-vJ-a6N"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
