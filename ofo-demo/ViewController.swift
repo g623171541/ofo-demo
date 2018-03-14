@@ -9,7 +9,7 @@
 import UIKit
 import SWRevealViewController
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , MAMapViewDelegate{
     //44.增加一个控制器中的全局属性。加一个感叹号说明mapView是一定有值的
     var mapView: MAMapView!
     
@@ -27,6 +27,14 @@ class ViewController: UIViewController {
         //44. 初始化mapView
         mapView = MAMapView(frame: view.bounds)
         view.addSubview(mapView )
+        //45. 设置代理，不能xcode提供的自动修复来完善代码
+        mapView.delegate = self
+        
+        //49. 设置地图默认的缩放级别
+        mapView.zoomLevel = 17
+        //47. 显示用户的位置，追踪模式
+        mapView.showsUserLocation = true
+        mapView.userTrackingMode = .follow
         
         //38
         view.bringSubview(toFront: panelView)
